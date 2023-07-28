@@ -1,0 +1,23 @@
+{
+  "sing_in": "تسجيل الدخول",
+  "sing_in_hint":"تسجيل الدخول لبدء استخدام التطبيق",
+  "email_hint":"البريد",
+  "password_hint":"كلمة المرور",
+  "login":"تسجيل الدخول",
+  "language_hint":"اختر اللغة",
+  "language_massage":"اختر اللغة المناسبة من الاسفل",
+  "confirm_hint":"قم بتأكيد الخروج",
+  "confirm_massage":"هل أنت متأكد أنك تريد الخروج!",
+  "yes":"خروج",
+  "no":"الغاء",
+  "insert_email_address":"أدخل البريد الإلكتروني",
+  "insert_password":"أدخل كلمة المرور",
+  "insert_required_data":"أدخل البيانات المطلوبة",
+  "insert_full_name":"أدخل الاسم",
+  "home":"الصفحة الرئيسية",
+  "no_account":"ليس لديك حساب :",
+  "create_now":"انشء الان!",
+  "register":"",
+  "sign_up": "انشاء حساب",
+  "full_name":"الاسم الكامل"
+}

@@ -1,0 +1,23 @@
+{
+  "sing_in": "Sing in",
+  "sing_in_hint":"Login to start using app",
+  "email_hint":"Email",
+  "password_hint":"Password",
+  "login":"Login",
+  "language_hint":"Choose Language",
+  "language_massage":"Select suitable Language from below",
+  "confirm_hint":"Confirm Exit",
+  "confirm_massage":"Are you sure you want to exit!",
+  "yes":"Exit",
+  "no":"Cancel",
+  "insert_email_address":"Insert email address",
+  "insert_password":"Insert password",
+  "insert_required_data":"Insert required data",
+  "insert_full_name":"Insert full name",
+  "home":"Home",
+  "no_account":"Don\\'t have account",
+  "create_now":"Create Now!",
+  "register":"Create an account",
+  "sign_up": "Sign Up",
+  "full_name":"Full name"
+}

@@ -1,0 +1,89 @@
+Database:
+    => Developed using SQL
+    => SQL: Structure Query Language
+    => Database types:
+        => SQL
+            => Consists of
+                => Tables
+                => Each table contains a group of rows
+            => Types:
+                => MySQL
+                => Maria
+                => SQLSerer
+                => Oracle
+                => SQLite
+        => NoSQL
+            => Consists of
+                => Collections equivalent for tables
+                => Each Collection contains a group of documents
+            => Types:
+                => Mongo
+
+=> SQLite Database:
+    => Used in both Mobile & Web apps
+    => Consist of
+        => Tables
+            => Tables must have (Not error if not) a property assigned for a columns called Primary Key (PK)
+                => Numeric value - Unsigned - Start from 1 - Auto Increment - Unique
+            => Table name preferred to be plural
+                => users, students, cars, categories, teachers, subjects
+            => Contains a group of column & rows
+                => Columns
+                    => Each Column must have:
+                        => Name - lower_case
+                            => name, first_name, mobile_number, address
+                        => Datatype
+                            => VARCHAR(45), TEXT, CHAR, Boolean, INT, TinyInt, float
+                        => Size
+                        => Properties
+                            => Indexes:
+                                => Primary Key
+                                => Foreign Key
+                                => Unique
+                                => etc.
+                            => Auto Increment (numeric)
+                            => Unsigned (Only positive values - numeric)
+                            => Zero fil (accepts zero - numeric)
+                            => Null (can have a null value)
+        => Rows
+            => Each row contains values for all/some columns
+            => Each row preferred to have a PK
+            => Some values in the row can be null
+            => Some values in the row can't be duplicated (unique)
+
+SQL - Relational Database
+    => One To One
+        => Each row has a single row in the other table
+        => Inverse: One To One
+    => One To Many
+        => Each category can have many sub-categories
+        => Each sub-category belongs to one category
+        => Inverse: One To One
+    => Many To Many
+        => Student can register many subject
+        => Subject can be registered by many student
+        => Result: New table contains 2 Foreign keys (FK) for both tables
+
+SQL - Queries (CRUD)
+    => Create: INSERT
+        => INSERT INTO tableName (c1, c2, c3) VALUES (v1, v2, v3)
+        => INSERT INTO tableName (v1, v2, v3)
+    => Read: SELECT
+        => SELECT * FROM tableName
+        => SELECT * FROM tableName WHERE c1 = v1
+        => SELECT * FROM tableName WHERE c1 = v1 AND c2 = v2
+        => SELECT * FROM tableName WHERE c1 = v1 OR c2 = v2
+    => Update: UPDATE
+        => Update tableName SET c1 = v1;
+        => Update tableName SET c1 = v1 WHERE c2 = v2;
+    => Delete: DELETE
+        => DELETE FROM tableName
+        => DELETE FROM tableName WHERE c1 = v1
+        => DELETE FROM tableName WHERE c1 = v1 AND c2 = v2
+
+SQL - Queries
+    => Create new table
+    => Update table columns
+    => Add new column
+    => Drop column
+    => Drop table
